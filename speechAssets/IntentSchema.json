@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "SubstitutionIntent",
+      "slots": [
+      {
+        "name" : "Food",
+        "type": "LIST_OF_FOODS"
+      }
+     ]
+    },
+   {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
