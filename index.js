@@ -69,7 +69,8 @@ HowTo.prototype.intentHandlers = {
         } else {
             var speech;
             if (foodName) {
-                speech = "I'm sorry, I currently do not know how to make " + foodName + " keto. What else can I help with?";
+                speech = "I'm sorry, I currently do not know how to make " + foodName + " keto. Can I help with something else?";
+                console.log('unknown food: ' + foodName);
             } else {
                 speech = "I'm sorry, I currently do not know that food. What else can I help with?";
             }
